@@ -1,0 +1,24 @@
+.btn {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.title {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.detailTable {
+  margin: auto;
+}
+
+.detailTable td {
+  border: 1px solid black;
+}
+
+.component {
+  padding: 0 10px;
+}

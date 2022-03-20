@@ -1,0 +1,18 @@
+.contents {
+  position: relative;
+  top: 35px;
+}
+
+.searchBar {
+  float: right;
+  /* margin: 0 auto; */
+  font-size: 12px;
+}
+
+.searchBar input {
+  width: 100px;
+}
+
+.btn {
+  margin-left: 5px;
+}

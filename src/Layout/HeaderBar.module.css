@@ -1,0 +1,35 @@
+.title {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  z-index: 0;
+  padding: 20px 30px;
+  top: 10%;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title::before {
+  content: "";
+  inset: 0;
+  background-color: #00b4d8;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.title:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  background: white;
+}
+
+.title:hover {
+  color: black;
+}
